@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../Styles/test-style.css " /> -->
+    <link rel="stylesheet" href="../Styles/test-style.css " />
+    <title>Tests | Test Your Health</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <nav>
+        <div class="logo">
+          <img src="../img/logo-color-removebg-preview.png" alt="Logo Image" />
+        </div>
+        <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/test.html">Labs</a></li>
+          <li><a href="./pages/test.html">Tests</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <a href="/pages/cart.html">
+            <span id="cart-count" class="cart-count">0</span>
+            <img
+              width="30"
+              src="/img/cart-icon.png"
+              alt="Shopping Cart"
+              title="Shopping Cart"
+            />
+          </a>
+        </ul>
+      </nav>
+    </div>
+    <section>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search products..." />
+      </div>
+
+      <div class="fun-btn">
+        <button
+          id="section1-button"
+          class="button active"
+          onclick="showSection('section1')"
+        >
+          Pregnancy Test
+        </button>
+        <button
+          id="section2-button"
+          class="button"
+          onclick="showSection('section2')"
+        >
+          Pre-Oprative
+        </button>
+        <button
+          id="section3-button"
+          class="button"
+          onclick="showSection('section3')"
+        >
+          Bone Tests
+        </button>
+        <button
+          id="section4-button"
+          class="button"
+          onclick="showSection('section4')"
+        >
+          Arthritis Profile
+        </button>
+        <button
+          id="section5-button"
+          class="button"
+          onclick="showSection('section5')"
+        >
+          Hormonal Tests For Male
+        </button>
+        <button
+          id="section6-button"
+          class="button"
+          onclick="showSection('section6')"
+        >
+          Hormonal Tests For Female
+        </button>
+        <button
+          id="section7-button"
+          class="button"
+          onclick="showSection('section7')"
+        >
+          Allergy Tests
+        </button>
+        <button
+          id="section8-button"
+          class="button"
+          onclick="showSection('section8')"
+        >
+          Urin Tests
+        </button>
+      </div>
+      <div id="section1" class="section">
+        <div class="grid-container">
+          <div class="product-card">
+            <h3>COMPLETE BLOOD COUNT; CBC</h3>
+            <p>
+              <strong
+                >Special Instruction: No special preparation required</strong
+              >
+            </p>
+            <p class="p1">PRICE <strike>₹350</strike> ₹300</p>
+            <button class="cartbtn" id="cart-btn-1">Add To Cart</button>
+          </div>
+          <div class="product-card">
+            <h3>ANC PROFILE</h3>
+            <p>Special Instruction : No special preparation required</p>
+            <p class="p1">PRICE <strike>₹350</strike> ₹300</p>
+            <button class="cartbtn" id="cart-btn-2">Add To Cart</button>
+          </div>
+          <div class="product-card">
+            <h3>LIVER PANEL 1; LFT</h3>
+            <p>Special Instruction : No special preparation required</p>
+            <p class="p1">PRICE <strike>₹350</strike> ₹300</p>
+            <button class="cartbtn" id="cart-btn-3">Add To Cart</button>
+          </div>
+          <div class="product-card">
+            <h3>KIDNEY PANEL; KFT</h3>
+            <p>Special Instruction : No special preparation required</p>
+            <p class="p1">PRICE <strike>₹350</strike> ₹300</p>
+            <button class="cartbtn" id="cart-btn-4">Add To Cart</button>
+          </div>
+          <div class="product-card">
+            <h3>THYROID PROFILE, TOTAL</h3>
+            <p>Special Instruction : No special preparation required</p>
+            <p class="p1">PRICE <strike>₹350</strike> ₹300</p>
+            <button class="cartbtn" id="cart-btn-5">Add To Cart</button>
+          </div>
+          <div class="product-card">
+            <h3>CULTURE, URINE</h3>
+            <p>Special Instruction : No special preparation required</p>
+            <p class="p1">PRICE <strike>₹350</strike> ₹300</p>
+            <button class="cartbtn" id="cart-btn-6">Add To Cart</button>
+          </div>
+          <div class="product-card">
+            <h3>URINE EXAMINATION, ROUTINE; URINE, R/M</h3>
+            <p>Special Instruction : First morning urine sample preferred.</p>
+            <p class="p1">PRICE <strike>₹350</strike> ₹300</p>
+            <button class="cartbtn" id="cart-btn-7">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 TestYourHealth. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../scripts/tests.js"></script>
+  </body>
+</html>
